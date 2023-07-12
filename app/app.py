@@ -1,9 +1,3 @@
-import subprocess
-
-@st.cache_resource
-def download_en_core_web_sm():
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
-
 import streamlit as st
 import pandas as pd
 from sentence_splitter import SentenceSplitter
