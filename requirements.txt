@@ -1,2 +1,5 @@
 sentence_splitter
 pyinflect
+annotated_text
+streamlit_sortables
+spacy==3.5.4
